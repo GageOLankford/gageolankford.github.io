@@ -57,6 +57,10 @@ h2::after {
     height: 3px;
     background-color: var(--secondary);
 }
+.modal-header h2 {
+    color: white;
+    margin: 0;
+}
 
 p {
     margin-bottom: 15px;
@@ -150,7 +154,7 @@ nav ul li a:hover {
 .hero {
     background: linear-gradient(135deg, var(--primary) 0%, var(--dark) 100%);
     color: white;
-    padding: 150px 0 100px;
+    padding: 150px 0 50px;
     text-align: center;
 }
 
